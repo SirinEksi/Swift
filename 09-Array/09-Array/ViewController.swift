@@ -84,26 +84,26 @@ class ViewController: UIViewController {
         //        contains
         //        True yada False döner
         
-        var ilçeler = ["Çekmeköy", "Beşiktaş", "Kadıköy", "Ümraniye"]
+        var ilceler = ["Çekmeköy", "Beşiktaş", "Kadıköy", "Ümraniye"]
         
-        if  ilçeler.contains("okmeydanı") == false{
+        if  ilceler.contains("okmeydanı") == false{
             print("Okmeydanı dizide mevcut değil")
-            ilçeler.append("Okmeydanı")
+            ilceler.append("Okmeydanı")
         }
         
-        if ilçeler.contains("Çekmeköy") == false {
+        if ilceler.contains("Çekmeköy") == false {
             print("Çekmeköy dizide mevcut deği")
-            ilçeler.append("Çekmeköy")
+            ilceler.append("Çekmeköy")
             
         }
         
-        if ilçeler.contains("Maltepe") == false{
+        if ilceler.contains("Maltepe") == false{
             print("Maltepe dizide mevcut değil")
-            ilçeler.append("Maltepe")
+            ilceler.append("Maltepe")
             
         }
         
-        print(ilçeler)
+        print(ilceler)
         
     }
     
