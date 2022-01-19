@@ -13,4 +13,5 @@ class User {
     var firstname = ""
     var lastname = ""
     var picture = UIImage()
+    var acıklama = ""
     }

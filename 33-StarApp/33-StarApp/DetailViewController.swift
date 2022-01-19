@@ -13,6 +13,9 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var myLabel: UILabel!
     
+    @IBOutlet weak var acıklamaLabel: UILabel!
+    
+    
     var userDetail = User()
     
     
@@ -23,7 +26,7 @@ class DetailViewController: UIViewController {
         
         myLabel.text = userDetail.firstname + "" + userDetail.lastname
         myImageView.image = userDetail.picture
-        
+        acıklamaLabel.text = userDetail.acıklama 
         
         
     }

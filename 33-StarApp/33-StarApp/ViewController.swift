@@ -66,18 +66,21 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         user1.firstname = "Norman"
         user1.lastname = "Reedus"
         user1.picture = UIImage(named:"norman")!
+        user1.acıklama = "erkek oyuncu"
         users.append(user1)
         
         let user2 = User()
         user2.firstname = "Lauren"
         user2.lastname = "Cohan"
         user2.picture = UIImage(named:"lauren")!
+        user2.acıklama = "kadın oyuncu"
         users.append(user2)
         
         let user3 = User()
         user3.firstname = "Emily"
         user3.lastname = "Kinney"
         user3.picture = UIImage(named:"emily")!
+        user3.acıklama = "jfgbjrgbö"
         users.append(user3)
         
         
@@ -85,12 +88,14 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         user4.firstname = "Chandler"
         user4.lastname = "Rigss"
         user4.picture = UIImage(named:"chandler")!
+        user4.acıklama = "djvomfvklö"
         users.append(user4)
         
         let user5 = User()
         user5.firstname = "Andrew"
         user5.lastname = "Lincoln"
         user5.picture = UIImage(named:"andrew")!
+        user5.acıklama = "sjhfufvk"
         users.append(user5)
         
         
