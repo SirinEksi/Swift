@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Hesap_Makinesi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jbu-OD-J6n">
+                                <rect key="frame" x="20" y="54" width="374" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="kV5-5U-uvt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MqY-gi-IJQ">
+                                <rect key="frame" x="20" y="94" width="70" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="UjY-Fs-Wdm"/>
+                                    <constraint firstAttribute="height" constant="50" id="jXd-3M-JMj"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="1">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dugme1Tıkla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pZl-GI-Aft"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gJ5-j5-6UP">
+                                <rect key="frame" x="20" y="149" width="70" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="0hY-dH-p5N"/>
+                                    <constraint firstAttribute="width" constant="70" id="YHX-UN-Cly"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="4">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dugme4Tıkla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="omW-Wv-vRi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IiK-R6-OYv">
+                                <rect key="frame" x="20" y="204" width="70" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="BCY-PE-1c3"/>
+                                    <constraint firstAttribute="width" constant="70" id="ssq-X5-O0R"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="7">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dugme7Tıkla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0ZN-NC-ahn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQp-5r-Z6b">
+                                <rect key="frame" x="20" y="259" width="70" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="hkc-Ft-TMO"/>
+                                    <constraint firstAttribute="width" constant="70" id="nIR-Ay-qnh"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="0">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dugme0Tıkla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a6d-eM-XJU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pu2-HQ-R9l">
+                                <rect key="frame" x="95" y="259" width="70" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="dwe-w2-b07"/>
+                                    <constraint firstAttribute="width" constant="70" id="rwJ-R8-rWC"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="C">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dugmeSilTıkla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MEa-r0-B9C"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y29-lL-h2h">
+                                <rect key="frame" x="170" y="259" width="70" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="5sf-cQ-4gZ"/>
+                                    <constraint firstAttribute="height" constant="50" id="lkD-G3-n4C"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="=">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dugmeEsitTıkla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yp1-Z6-Doo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WeP-tl-yi9">
+                                <rect key="frame" x="245" y="259" width="70" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Bvv-1x-0vD"/>
+                                    <constraint firstAttribute="width" constant="70" id="qcK-82-1ga"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="/">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dugmeBoluTıkla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P3C-zt-PI6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Okg-zm-jsh">
+                                <rect key="frame" x="95" y="204" width="70" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="1K5-Ib-Xv2"/>
+                                    <constraint firstAttribute="height" constant="50" id="z2i-Wk-tdx"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="8">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dugme8Tıkla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZAb-7N-o5H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLe-Ou-JmZ">
+                                <rect key="frame" x="170" y="204" width="70" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="GMQ-Sb-o4O"/>
+                                    <constraint firstAttribute="height" constant="50" id="kld-Gc-haD"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="9">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dugme9Tıkla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VLG-As-luc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2GW-IM-FpN">
+                                <rect key="frame" x="245" y="204" width="70" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="9Lv-KA-6oi"/>
+                                    <constraint firstAttribute="height" constant="50" id="pXa-uU-GVr"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="*">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dugmeCarpıTıkla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FVG-h2-vh2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddA-xW-5r3">
+                                <rect key="frame" x="320" y="204" width="70" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="UcY-sA-D3E"/>
+                                    <constraint firstAttribute="width" constant="70" id="qSQ-6A-7d0"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="MR">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dugmeHafızayıGoster:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wx9-S3-c0E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GTz-Mu-cId">
+                                <rect key="frame" x="95" y="149" width="70" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="Cpc-8N-41d"/>
+                                    <constraint firstAttribute="height" constant="50" id="crf-BX-deH"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="5">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dugme5Tıkla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wP9-Ei-bdF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r3E-XC-lLZ">
+                                <rect key="frame" x="170" y="149" width="70" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="44a-y3-WNq"/>
+                                    <constraint firstAttribute="width" constant="70" id="Uv1-Q3-zbz"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="6">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dugme6Tıkla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jqD-8M-Ps7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4l-ls-HED">
+                                <rect key="frame" x="245" y="149" width="70" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="4lq-Nh-YSf"/>
+                                    <constraint firstAttribute="width" constant="70" id="CRc-p5-G8b"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="-">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dugmeEksiTıkla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4PR-dr-VAi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLT-OJ-c7Z">
+                                <rect key="frame" x="320" y="149" width="70" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="fNL-hl-3Rb"/>
+                                    <constraint firstAttribute="width" constant="70" id="vK2-2L-dFd"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="M-">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dugmeHafızadanCıkar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9uc-xk-ySA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="trp-rg-mf3">
+                                <rect key="frame" x="95" y="94" width="70" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="NAU-zu-9bj"/>
+                                    <constraint firstAttribute="width" constant="70" id="aE5-YW-vBq"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="2">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dugme2Tıkla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AbK-XF-3TL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oxf-mi-Yc0">
+                                <rect key="frame" x="170" y="94" width="70" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="dmX-7D-abY"/>
+                                    <constraint firstAttribute="width" constant="70" id="fXs-nP-cWr"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="3">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dugme3Tıkla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="324-v4-bj9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="feB-OE-sOz">
+                                <rect key="frame" x="245" y="94" width="70" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="Ynf-92-R4Q"/>
+                                    <constraint firstAttribute="height" constant="50" id="cvA-75-ueT"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="+">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dugmeArtıTıkla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mnz-vC-5Zj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khx-F5-vgA">
+                                <rect key="frame" x="320" y="94" width="70" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="lej-uz-Fu6"/>
+                                    <constraint firstAttribute="height" constant="50" id="wOu-gy-ciM"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="M+">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dugmeHafızayaEkle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2mo-cz-r8B"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nhn-6a-xmd">
+                                <rect key="frame" x="320" y="259" width="70" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="J3N-G6-M9i"/>
+                                    <constraint firstAttribute="height" constant="50" id="afE-oJ-xlp"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="MC">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="16"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="dugmeHafızadanSilTıkla:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y6F-Ll-OFX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="WeP-tl-yi9" firstAttribute="top" secondItem="2GW-IM-FpN" secondAttribute="bottom" constant="5" id="0ZI-9P-ckO"/>
+                            <constraint firstItem="Q4l-ls-HED" firstAttribute="top" secondItem="feB-OE-sOz" secondAttribute="bottom" constant="5" id="0dw-Ey-G8X"/>
+                            <constraint firstItem="sLe-Ou-JmZ" firstAttribute="top" secondItem="r3E-XC-lLZ" secondAttribute="bottom" constant="5" id="0j3-oE-Br0"/>
+                            <constraint firstItem="r3E-XC-lLZ" firstAttribute="leading" secondItem="GTz-Mu-cId" secondAttribute="trailing" constant="5" id="6V0-7O-GKw"/>
+                            <constraint firstItem="pu2-HQ-R9l" firstAttribute="leading" secondItem="lQp-5r-Z6b" secondAttribute="trailing" constant="5" id="7LO-0S-1aY"/>
+                            <constraint firstItem="WeP-tl-yi9" firstAttribute="leading" secondItem="Y29-lL-h2h" secondAttribute="trailing" constant="5" id="9uc-qN-9uV"/>
+                            <constraint firstItem="Jbu-OD-J6n" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="A2k-8p-27G"/>
+                            <constraint firstItem="Q4l-ls-HED" firstAttribute="leading" secondItem="r3E-XC-lLZ" secondAttribute="trailing" constant="5" id="AMP-6k-aJT"/>
+                            <constraint firstItem="gLT-OJ-c7Z" firstAttribute="leading" secondItem="Q4l-ls-HED" secondAttribute="trailing" constant="5" id="C19-rX-Wha"/>
+                            <constraint firstItem="Okg-zm-jsh" firstAttribute="leading" secondItem="IiK-R6-OYv" secondAttribute="trailing" constant="5" id="CER-tD-l03"/>
+                            <constraint firstItem="IiK-R6-OYv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="CUg-t8-VD3"/>
+                            <constraint firstItem="MqY-gi-IJQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="DmP-CO-0oR"/>
+                            <constraint firstItem="ddA-xW-5r3" firstAttribute="top" secondItem="gLT-OJ-c7Z" secondAttribute="bottom" constant="5" id="KgS-Of-i8T"/>
+                            <constraint firstItem="feB-OE-sOz" firstAttribute="leading" secondItem="Oxf-mi-Yc0" secondAttribute="trailing" constant="5" id="LiG-lI-EDJ"/>
+                            <constraint firstItem="gLT-OJ-c7Z" firstAttribute="top" secondItem="khx-F5-vgA" secondAttribute="bottom" constant="5" id="MBd-eR-muI"/>
+                            <constraint firstItem="ddA-xW-5r3" firstAttribute="leading" secondItem="2GW-IM-FpN" secondAttribute="trailing" constant="5" id="Mkt-3B-2os"/>
+                            <constraint firstItem="r3E-XC-lLZ" firstAttribute="top" secondItem="Oxf-mi-Yc0" secondAttribute="bottom" constant="5" id="NhQ-BC-Uhz"/>
+                            <constraint firstItem="Jbu-OD-J6n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Noa-MR-cle"/>
+                            <constraint firstItem="lQp-5r-Z6b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="QZu-tL-ixZ"/>
+                            <constraint firstItem="Okg-zm-jsh" firstAttribute="top" secondItem="GTz-Mu-cId" secondAttribute="bottom" constant="5" id="SLm-v7-sLQ"/>
+                            <constraint firstItem="trp-rg-mf3" firstAttribute="top" secondItem="Jbu-OD-J6n" secondAttribute="bottom" constant="10" id="Vyg-Ma-O8r"/>
+                            <constraint firstItem="gJ5-j5-6UP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="XWt-GV-pYv"/>
+                            <constraint firstItem="pu2-HQ-R9l" firstAttribute="top" secondItem="Okg-zm-jsh" secondAttribute="bottom" constant="5" id="XYI-6K-fvC"/>
+                            <constraint firstItem="lQp-5r-Z6b" firstAttribute="top" secondItem="IiK-R6-OYv" secondAttribute="bottom" constant="5" id="Y0w-Pp-fXV"/>
+                            <constraint firstItem="2GW-IM-FpN" firstAttribute="top" secondItem="Q4l-ls-HED" secondAttribute="bottom" constant="5" id="Yyg-aE-aIY"/>
+                            <constraint firstItem="trp-rg-mf3" firstAttribute="leading" secondItem="MqY-gi-IJQ" secondAttribute="trailing" constant="5" id="cHX-gI-jaA"/>
+                            <constraint firstItem="Y29-lL-h2h" firstAttribute="leading" secondItem="pu2-HQ-R9l" secondAttribute="trailing" constant="5" id="clv-Oy-YVQ"/>
+                            <constraint firstItem="nhn-6a-xmd" firstAttribute="top" secondItem="ddA-xW-5r3" secondAttribute="bottom" constant="5" id="cxp-9Q-sII"/>
+                            <constraint firstItem="khx-F5-vgA" firstAttribute="leading" secondItem="feB-OE-sOz" secondAttribute="trailing" constant="5" id="eaT-ZP-gV5"/>
+                            <constraint firstItem="nhn-6a-xmd" firstAttribute="leading" secondItem="WeP-tl-yi9" secondAttribute="trailing" constant="5" id="ff6-1r-qhF"/>
+                            <constraint firstItem="gJ5-j5-6UP" firstAttribute="top" secondItem="MqY-gi-IJQ" secondAttribute="bottom" constant="5" id="gYL-l1-1Pv"/>
+                            <constraint firstItem="khx-F5-vgA" firstAttribute="top" secondItem="Jbu-OD-J6n" secondAttribute="bottom" constant="10" id="hM5-tZ-wZS"/>
+                            <constraint firstItem="IiK-R6-OYv" firstAttribute="top" secondItem="gJ5-j5-6UP" secondAttribute="bottom" constant="5" id="iyU-DB-wFp"/>
+                            <constraint firstItem="feB-OE-sOz" firstAttribute="top" secondItem="Jbu-OD-J6n" secondAttribute="bottom" constant="10" id="jpB-W6-bYJ"/>
+                            <constraint firstItem="2GW-IM-FpN" firstAttribute="leading" secondItem="sLe-Ou-JmZ" secondAttribute="trailing" constant="5" id="kWc-ps-X4P"/>
+                            <constraint firstItem="Oxf-mi-Yc0" firstAttribute="leading" secondItem="trp-rg-mf3" secondAttribute="trailing" constant="5" id="kc9-n1-cox"/>
+                            <constraint firstItem="sLe-Ou-JmZ" firstAttribute="leading" secondItem="Okg-zm-jsh" secondAttribute="trailing" constant="5" id="oom-J9-PdA"/>
+                            <constraint firstItem="MqY-gi-IJQ" firstAttribute="top" secondItem="Jbu-OD-J6n" secondAttribute="bottom" constant="10" id="q33-Tm-uG7"/>
+                            <constraint firstItem="GTz-Mu-cId" firstAttribute="top" secondItem="trp-rg-mf3" secondAttribute="bottom" constant="5" id="t9B-X5-pRZ"/>
+                            <constraint firstItem="Oxf-mi-Yc0" firstAttribute="top" secondItem="Jbu-OD-J6n" secondAttribute="bottom" constant="10" id="uLW-rJ-waj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jbu-OD-J6n" secondAttribute="trailing" constant="20" id="v10-rY-RoB"/>
+                            <constraint firstItem="Y29-lL-h2h" firstAttribute="top" secondItem="sLe-Ou-JmZ" secondAttribute="bottom" constant="5" id="xkV-4R-ehO"/>
+                            <constraint firstItem="GTz-Mu-cId" firstAttribute="leading" secondItem="gJ5-j5-6UP" secondAttribute="trailing" constant="5" id="yfw-AO-uCt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="sonuc" destination="Jbu-OD-J6n" id="wWg-sd-YmO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="121.73913043478262" y="90.401785714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
