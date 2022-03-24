@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "067B51DD-7A49-4EB3-9066-F92169763744"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57E8B7F9-E981-48D3-B6F2-422853561553"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ehliyet S&#x131;nav Uygulamas&#x131;/Konular.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "Konular"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4B317FC-51FE-4691-A56B-E9E33DAD8432"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ehliyet S&#x131;nav Uygulamas&#x131;/Konular.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "Konular"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A4B317FC-51FE-4691-A56B-E9E33DAD8432 - d419eeb6a3cadd9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ehliyet_S&#x131;nav_Uygulamas&#x131;.Konular.ilkYardimSayaci.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Ehliyet S&#x131;nav Uygulamas&#x131;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ceksi/Developer/Swift/Ehliyet%20S%C4%B1nav%20Uygulamas%C4%B1/Ehliyet%20S%C4%B1nav%20Uygulamas%C4%B1/Konular.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "A4B317FC-51FE-4691-A56B-E9E33DAD8432 - c32dc2ae3561398f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ehliyet_S&#x131;nav_Uygulamas&#x131;.Konular.ilkYardimSayaci.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Ehliyet S&#x131;nav Uygulamas&#x131;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ceksi/Developer/Swift/Ehliyet%20S%C4%B1nav%20Uygulamas%C4%B1/Ehliyet%20S%C4%B1nav%20Uygulamas%C4%B1/Konular.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "A4B317FC-51FE-4691-A56B-E9E33DAD8432 - 954f24363fe5348d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ehliyet_S&#x131;nav_Uygulamas&#x131;.Konular.ilkYardimSayaci.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Ehliyet S&#x131;nav Uygulamas&#x131;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ceksi/Developer/Swift/Ehliyet%20S%C4%B1nav%20Uygulamas%C4%B1/Ehliyet%20S%C4%B1nav%20Uygulamas%C4%B1/Konular.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "A4B317FC-51FE-4691-A56B-E9E33DAD8432 - edb787ef0dc233fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ehliyet_S&#x131;nav_Uygulamas&#x131;.Konular.ilkYardimSayaci.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Ehliyet S&#x131;nav Uygulamas&#x131;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ceksi/Developer/Swift/Ehliyet%20S%C4%B1nav%20Uygulamas%C4%B1/Ehliyet%20S%C4%B1nav%20Uygulamas%C4%B1/Konular.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "A4B317FC-51FE-4691-A56B-E9E33DAD8432 - 12959c1bf377cbb1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ehliyet_S&#x131;nav_Uygulamas&#x131;.Konular.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Ehliyet_S&#x131;nav_Uygulamas&#x131;.Konular"
+                  moduleName = "Ehliyet S&#x131;nav Uygulamas&#x131;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ceksi/Developer/Swift/Ehliyet%20S%C4%B1nav%20Uygulamas%C4%B1/Ehliyet%20S%C4%B1nav%20Uygulamas%C4%B1/Konular.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "287">
+               </Location>
+               <Location
+                  uuid = "A4B317FC-51FE-4691-A56B-E9E33DAD8432 - 724e7eac24c1445f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ehliyet_S&#x131;nav_Uygulamas&#x131;.Konular.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Ehliyet_S&#x131;nav_Uygulamas&#x131;.Konular&gt;"
+                  moduleName = "Ehliyet S&#x131;nav Uygulamas&#x131;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ceksi/Developer/Swift/Ehliyet%20S%C4%B1nav%20Uygulamas%C4%B1/Ehliyet%20S%C4%B1nav%20Uygulamas%C4%B1/Konular.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "244">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
